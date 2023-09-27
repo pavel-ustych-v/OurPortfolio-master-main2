@@ -1,0 +1,32 @@
+{% extends 'Main/base.html' %}
+{% load static %}
+{% block links %}
+    <link rel="stylesheet" href="{% static 'Hobby/style.css' %}">
+{% endblock %}
+{% block content %}
+<div>
+    <div id = "Pavel">
+        <h1 >Павло Устич</h1>
+        <p >Я займаюсь програмуванням у World IT.</p>
+        <p >Там багато цікавого, вам теж раджу туди пійти.</p> 
+    </div>
+    
+    <div id = "Ulyana">
+        <h1>Ульяна Шамільова</h1>
+        <p>Граю у настільні ігри, збираю пазли</p>
+    </div>
+    <div id = "Danya">
+        <h1>Кошнарьов Данило</h1>
+        <p>Я  методист міжнародної категорії з бальних танців</p>
+    </div>
+    
+
+    <div id = "Nazar">
+        <h1>Назар Зозуля</h1>
+        <p>Немає</p>
+        <p>(Він так сам сказав не бийте палицями)</p> 
+    </div>   
+</div>
+
+    
+{% endblock %}
